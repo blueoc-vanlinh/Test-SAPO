@@ -44,7 +44,7 @@ Test/
 │   └── package.json
 └── README.md
 
-4.1 Chạy backend
+1 Chạy backend
 Di chuyển vào thư mục backend:
 
 cd backend
@@ -54,7 +54,7 @@ Backend chạy tại:
 
 http://localhost:8081
 
-4.2 Chạy frontend
+2 Chạy frontend
 Di chuyển vào thư mục frontend:
 
 cd frontend
@@ -64,7 +64,8 @@ npm run dev
 Frontend chạy tại:
 
 http://localhost:5173
-5. API chính
+
+API chính
 Lấy danh sách sản phẩm Flash Sale
 
 GET
