@@ -17,8 +17,8 @@ public class FlashSaleApplication {
     @Bean
     CommandLineRunner initData(FlashSaleProductRepository productRepository) {
         return args -> {
-            productRepository.save(new FlashSaleProduct(null, "Áo thun basic", 200000.0, 100000.0, 20));
-            productRepository.save(new FlashSaleProduct(null, "Giày sneaker", 800000.0, 400000.0, 10));
+            productRepository.save(new FlashSaleProduct(null, "Áo thun basic", 500000.0, 250000.0, 20));
+            productRepository.save(new FlashSaleProduct(null, "Giày sneaker", 500000.0, 250000.0, 10));
             productRepository.save(new FlashSaleProduct(null, "Balo thời trang", 500000.0, 250000.0, 5));
             productRepository.save(new FlashSaleProduct(null, "Áo polo", 500000.0, 250000.0, 1));
         };
